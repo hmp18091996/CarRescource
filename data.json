@@ -1,0 +1,24 @@
+{
+    "loaiXe": "Sendan",
+    "sanPham": [
+        {
+            "tenXe": "",
+            "imgDefault": "",
+            "giaTu": "",
+            "danhSachMauSac": [
+                {
+                    "maMau": "",
+                    "tenMau": "",
+                    "img": ""
+                }
+            ],
+            "dongXeKhac": [
+                {
+                    "tenDong": "",
+                    "giaDong": ""
+                }
+            ],
+            "ngoaiThat": {}
+        }
+    ]
+}
