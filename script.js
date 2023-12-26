@@ -3,7 +3,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Hàm hiển thị popup
     function showPopup() {
-        $('#myModal').modal('show');
+        // $('#myModal').modal('show');
     }
 
     // Hiển thị popup khi trang được tải
