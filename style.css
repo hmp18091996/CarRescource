@@ -18,12 +18,17 @@ body {
     padding: 100px 0;
 }
 
-/* 
-.carousel-item {
-    height: 100hv;
-    min-height: 300px;
+
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
 }
 
+.carousel {
+    overflow: hidden;
+}
+
+/* 
 .carousel-caption {
     bottom: 220px;
     z-index: 2;
