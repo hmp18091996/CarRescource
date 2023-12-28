@@ -1,24 +1,114 @@
 {
-    "loaiXe": "Sendan",
-    "sanPham": [
+    "carCategories": [
         {
-            "tenXe": "",
-            "imgDefault": "",
-            "giaTu": "",
-            "danhSachMauSac": [
+            "category": "Dòng xe Sedan",
+            "cars": [
                 {
-                    "maMau": "",
-                    "tenMau": "",
-                    "img": ""
-                }
-            ],
-            "dongXeKhac": [
+                    "name": "Vios",
+                    "image": "https://ssa-api.toyotavn.com.vn/Resources/Images/BCF393FA9AFEC309E1F2A98CF5A57CEB.png",
+                    "price": "479.000.000"
+                },
                 {
-                    "tenDong": "",
-                    "giaDong": ""
+                    "name": "Corolla Altis",
+                    "image": "https://ssa-api.toyotavn.com.vn/Resources/Images/0B0BE4DDC80614697A93E04ED496B3E2.jpg",
+                    "price": "725.000.000"
+                },
+                {
+                    "name": "Camry",
+                    "image": "https://ssa-api.toyotavn.com.vn/Resources/Images/448F5CB4E8D6742CF606DA3C605145FA.png",
+                    "price": "1.105.000.000"
                 }
-            ],
-            "ngoaiThat": {}
+            ]
+        },
+        {
+            "category": "Dòng xe Hatchback",
+            "cars": [
+                {
+                    "name": "Wigo",
+                    "image": "https://ssa-api.toyotavn.com.vn/Resources/Images/2B145FE80DA2EB1E130C8767B693D021.png",
+                    "price": "360.000.000"
+                },
+                {
+                    "name": "Yaris",
+                    "image": "https://ssa-api.toyotavn.com.vn/Resources/Images/7BAC1028645009E904340E40AB628EC7.png",
+                    "price": "684.000.000"
+                }
+            ]
+        },
+        {
+            "category": "Dòng xe SUV",
+            "cars": [
+                {
+                    "name": "Yaris Cross",
+                    "image": "https://ssa-api.toyotavn.com.vn/Resources/Images/DB64D61952050267C2FFE2272E14007E.png",
+                    "price": "730.000.000"
+                },
+                {
+                    "name": "Corolla Cross",
+                    "image": "https://ssa-api.toyotavn.com.vn/Resources/Images/D1169FB589F9EF6122991D894150BCFD.png",
+                    "price": "760.000.000"
+                },
+                {
+                    "name": "Raize",
+                    "image": "https://ssa-api.toyotavn.com.vn/Resources/Images/1052B1A4AE5C2C5809F65C757841A149.png",
+                    "price": "552.000.000"
+                },
+                {
+                    "name": "Fortuner",
+                    "image": "https://ssa-api.toyotavn.com.vn/Resources/Images/5C8A3E6258EEF088D056327796DDCFF7.png",
+                    "price": "1.026.000.000"
+                },
+                {
+                    "name": "Land Cruiser",
+                    "image": "https://ssa-api.toyotavn.com.vn/Resources/Images/A953B1F43A87DAC9D4D5B0E504F8307C.png",
+                    "price": "4.286.000.000"
+                },
+                {
+                    "name": "Land Cruiser Prado",
+                    "image": "https://ssa-api.toyotavn.com.vn/Resources/Images/0B390ABCB353F232D8A16C45781D76BC.png",
+                    "price": "2.628.000.000"
+                }
+            ]
+        },
+        {
+            "category": "Dòng xe Đa dụng",
+            "cars": [
+                {
+                    "name": "Innova Cross",
+                    "image": "https://ssa-api.toyotavn.com.vn/Resources/Images/26A81D343439965FB49A7BE7462057F9.png",
+                    "price": "810.000.000"
+                },
+                {
+                    "name": "Veloz Cross",
+                    "image": "https://ssa-api.toyotavn.com.vn/Resources/Images/EDBF83A9C97849C00B8A6B900CE213A5.png",
+                    "price": "658.000.000"
+                },
+                {
+                    "name": "Avanza Premio",
+                    "image": "https://ssa-api.toyotavn.com.vn/Resources/Images/4C0BCFB9EA9EF8A9D28FCFDA19D83303.jpg",
+                    "price": "558.000.000"
+                },
+                {
+                    "name": "Innova",
+                    "image": "https://ssa-api.toyotavn.com.vn/Resources/Images/B1C4482978DB18DA2DB5DB1DA1DFF01F.png",
+                    "price": "755.000.000"
+                },
+                {
+                    "name": "Alphard",
+                    "image": "https://ssa-api.toyotavn.com.vn/Resources/Images/37ADDEC69277E6C125C7E82BAE4CB11A.jpg",
+                    "price": "4.370.000.000"
+                }
+            ]
+        },
+        {
+            "category": "Dòng xe Bán tải",
+            "cars": [
+                {
+                    "name": "Hilux",
+                    "image": "https://ssa-api.toyotavn.com.vn/Resources/Images/DB64D61952050267C2FFE2272E14007E.png",
+                    "price": "852.000.000"
+                }
+            ]
         }
     ]
 }
