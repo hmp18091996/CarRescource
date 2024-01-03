@@ -4,18 +4,18 @@ function onClickItemProducts() {
     });
 }
 
-$(document).ready(function () {
+// $(document).ready(function () {
 
-    onClickItemProducts();
+//     onClickItemProducts();
 
-    $('#myModal').modal('show');
+//     $('#myModal').modal('show');
 
-    setInterval(function () {
-        $('#myModal').modal('show');
-    }, 60000); // 60 giây
+//     setInterval(function () {
+//         $('#myModal').modal('show');
+//     }, 60000); // 60 giây
 
 
-});
+// });
 
 
 function sendMail() {
