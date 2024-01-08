@@ -264,3 +264,12 @@ body {
 #button-contact a img {
     background-color: white;
 }
+
+.color-button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
+    border-radius: 15px; 
+    margin: 5px;
+    cursor: pointer;
+}

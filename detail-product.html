@@ -17,6 +17,8 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <script src="script.js"></script>
+    <!-- <script src="./listCar.js"></script> -->
+    <script type="module" src="./detail.js"></script>
     <title>Chi tiết sản phẩm</title>
 </head>
 
@@ -82,48 +84,19 @@
 
                     </div>
 
-                    <div class="carousel-controls">
-                        <div class="carousel-indicators">
-                            <div class="row row-cols-5 g-0">
-                                <div class="col">
-                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
-                                        class="active" aria-current="true" aria-label="Slide 1"></button>
-                                </div>
-                                <div class="col">
-                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                                        aria-label="Slide 2"></button>
-                                </div>
-                                <div class="col">
-                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
-                                        aria-label="Slide 3"></button>
-                                </div>
-                                <div class="col">
-                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
-                                        aria-label="Slide 4"></button>
-                                </div>
-                                <div class="col">
-                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
-                                        aria-label="Slide 5"></button>
-                                </div>
-                                <div class="col">
-                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
-                                        aria-label="Slide 5"></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <div id="colorsContainer"></div>
                 </div>
                 <div class="col-sm-4">
                     <div class="breadcrumbs"><a href="index.html"> Trang chủ</a></div>
                     <div class="product-name">
-                        <h1>KIA SORENTO HYBRID</h1>
+                        <h1 id="product_name">KIA SORENTO HYBRID</h1>
                     </div>
                     <div class="is-divider small"></div>
                     <div class="product-price">
-                        <p>
+                        <p id="product_price">
                             1.105.000.000
-                            <span> VNĐ</span>
                         </p>
+
                     </div>
                     <div class="product-short-description">
                         <h4><strong>GIÁ XE KIA SORENTO HYBRID:</strong></h4>
@@ -136,6 +109,10 @@
                     </div>
                 </div>
             </div>
+            <div class="row" id="ngoaiThat"></div>
+            <div class="row" id="noiThat"></div>
+            <div class="row" id="vanHanh"></div>
+            <div class="row" id="anToan"></div>
         </div>
 
     </div>
