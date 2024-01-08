@@ -204,7 +204,7 @@ export const LIST_PRODUCT = [
     },
   },
   {
-    name: "Corolla Altis",
+    name: "toyota_corolla_altiss",
     detail: {
       name: "Corolla Altis",
       description: "Đậm chất chơi ngời chuẩn mực",
@@ -213,24 +213,29 @@ export const LIST_PRODUCT = [
       nhienLieu: "Xăng",
       xuatXu: "Thái Lan",
       giaTu: "725.000.000 VNĐ",
-      img: "https://ssa-api.toyotavn.com.vn/Resources/Images/E0F64FE3D8C29F214F9365C2129796A2.jpg",
+      img: "",
       color: [
         {
-          type: "Xám (1K3) 1K3",
-          img: "https://ssa-api.toyotavn.com.vn//VehicleImgs/08DCED96E4095335D0213A6212FD4CCF.jpg",
+          color: '#818f9c',
+          type: "",
+          img: "",
         },
         {
-          type: "Trắng ngọc trai (089) 089",
-          img: "https://ssa-api.toyotavn.com.vn//VehicleImgs/808D2C8F467EE63D4E26086C13E38F11.jpg",
+          color: '#fbfafa',
+          type: "",
+          img: "",
         },
         {
-          type: "Đỏ (3R3) 3R3",
-          img: "https://ssa-api.toyotavn.com.vn//VehicleImgs/4E92990170BE3C42CFB4AE5D57EC7EFC.jpg",
+          color: '#60121a',
+          type: "",
+          img: "",
         },
         {
-          type: "Đen (218) 218",
-          img: "https://ssa-api.toyotavn.com.vn//VehicleImgs/16DD35CDEA2DF762E82A488FD1A9E0D1.jpg",
+          color: '#030304',
+          type: "",
+          img: "",
         },
+
       ],
     },
     ngoaiThat: {
@@ -240,31 +245,31 @@ export const LIST_PRODUCT = [
         // Replace with actual data objects
         // Example object structure
         {
-          img: "https://ssa-api.toyotavn.com.vn/Resources/Images/CBE220A1B5E3310B6089432445015445.jpg",
+          img: "",
           title: "Đầu xe",
           description:
             "Phần đầu xe tạo ấn tượng bởi diện mạo tươi mới, trẻ trung với thiết kế dạng tổ ong cùng những chi tiết mạ crôm nổi bật",
         },
         {
-          img: "https://ssa-api.toyotavn.com.vn/Resources/Images/EE2475F64A4BA5051C6573F375597962.jpg",
+          img: "",
           title: "Cụm đèn trước",
           description:
             "Cụm đèn trước sử dụng công nghệ LED tiên tiến cung cấp khả năng hiển thị tuyệt vời vào ban đêm và góp phần giảm tiêu thụ năng lượng.",
         },
         {
-          img: "https://ssa-api.toyotavn.com.vn/Resources/Images/0E6421765CF3CFD80872F226128D0C9C.jpg",
+          img: "",
           title: "Cụm đèn sau",
           description:
             "Cụm đèn sau với thiết kế đặc biệt sắc nét cùng dải đèn LED dài mạnh mẽ.",
         },
         {
-          img: "https://ssa-api.toyotavn.com.vn/Resources/Images/EFC96E7E5C051DBBEC5C065F076B5DED.jpg",
+          img: "",
           title: "Mâm xe",
           description:
             "Mâm xe với thiết kế đa chấu kết hợp với nan hoa kép thể hiện sự sang trọng và thể thao.",
         },
         {
-          img: "https://ssa-api.toyotavn.com.vn/Resources/Images/C9600353232C50B11DFE2A143E98AF76.jpg",
+          img: "",
           title: "Thiết kế mặt bên xe",
           description:
             "Các đường gân sắc nét chạy dọc thân xe tạo cảm giác năng động.",
@@ -279,49 +284,49 @@ export const LIST_PRODUCT = [
         // Replace with actual data objects
         // Example object structure
         {
-          img: "https://ssa-api.toyotavn.com.vn/Resources/Images/0615569EB66E0FE66F57B054FA767F12.jpg",
+          img: "",
           title: "Ghế lái",
           description:
             "Ghế ngồi bọc da cho tất cả phiên bản & có thể chỉnh điện lên đến 10 hướng.",
         },
         {
-          img: "https://ssa-api.toyotavn.com.vn/Resources/Images/56254657E658630582F9C2D5EB289BCF.jpg",
+          img: "",
           title: "Hộc đựng đồ",
           description:
             "Không gian hộc đựng đồ rộng rãi và tiện lợi.",
         },
         {
-          img: "https://ssa-api.toyotavn.com.vn/Resources/Images/0228B16D1E028BCE2421F671A99AE419.jpg",
+          img: "",
           title: "Tựa tay hàng ghế thứ hai",
           description:
             "Hàng ghế sau được trang bị tựa tay mang đến sự thoải mái cho hành khách phía sau, đồng thời trên tựa tay còn trang bị khay đựng cốc/chai nước đầy tiện dụng.",
         },
         {
-          img: "https://ssa-api.toyotavn.com.vn/Resources/Images/41A3BFB5F9AF403E060C4B71919DE3F5.jpg",
+          img: "",
           title: "Tay lái",
           description:
             "Được thiết kế 3 chấu bọc da mạ bạc, tích hợp các nút điều chỉnh âm thanh, màn hình hiển thị đa thông tin và hệ thống kiểm soát hành trình, hỗ trợ đắc lực cho chủ sở hữu khi lái xe",
         },
         {
-          img: "https://ssa-api.toyotavn.com.vn/Resources/Images/9EC7DB9A5979AE74B1832C87B423E2F1.jpg",
+          img: "",
           title: "Màn hình giải trí",
           description:
             "Việc giải trí được tối ưu hóa với màn hình thông tin giải trí 9 kết nối với điện thoại thông minh không dây.",
         },
         {
-          img: "https://ssa-api.toyotavn.com.vn/Resources/Images/6DBC6709BB9299314B19CA9A3EABC741.jpg",
+          img: "",
           title: "Màn hình đa thông tin",
           description:
             "Màn hình đa thông tin 12.3'' mang đến khả năng hiển thị rõ nét & đồng hồ tốc độ có thể chuyển từ loại kim vật lý sang loại hiển thị số.",
         },
         {
-          img: "Điều hòa",
+          img: "",
           title: "Điều hòa",
           description:
             "Điều hòa tự động 2 vùng độc lập mang lại tiện nghi hàng đầu cho hành khách và tiếng ồn thấp.",
         },
         {
-          img: "https://ssa-api.toyotavn.com.vn/Resources/Images/0EAC6DB5CF8CA69647BD3E272E2930DA.jpg",
+          img: "",
           title: "Hộp đựng đồ tiện lợi",
           description:
             "Hộp đựng đồ 1 ngăn nằm ngay tựa tay của hàng ghế trước đầy tiện dụng.",
