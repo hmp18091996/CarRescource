@@ -19,7 +19,7 @@ const renderDetail = (section, containerId) => {
     const cardHtml = `
         <div class="col-md-4">
           <div class="card">
-            <img src="./img/${item.img}" class="card-img-top" alt="${item.title}">
+            <img src="${item.img}" class="card-img-top" alt="${item.title}">
             <div class="card-body">
               <h5 class="card-title">${item.title}</h5>
               <p class="card-text">${item.description}</p>
@@ -48,7 +48,7 @@ function renderColorButtons(colors) {
 function changeCarouselImages(newImageSrc) {
   const carouselItems = document.querySelectorAll('#carouselExampleCaptions .carousel-item img');
   carouselItems.forEach((img, index) => {
-    img.src = "./img/" + newImageSrc;
+    img.src = newImageSrc;
   });
 }
 
