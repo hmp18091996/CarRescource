@@ -15,8 +15,8 @@ const listImg = CAR.detail.color.map((color) => color.img);
 // Get the DOM elements
 const nameProduct = document.getElementById("product_name");
 const priceProduct = document.getElementById("product_price");
-const shortDesc1 = document.getElementById("pro_des_1") 
-const shortDesc2 = document.getElementById("pro_des_2")
+const nameMode = document.getElementById("nameMode") 
+const priceMode = document.getElementById("priceMode")
 
 // Function to render detail sections
 function renderDetail(section, containerId) {
@@ -95,8 +95,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
   // Render Detail
   nameProduct.innerHTML = CAR.detail.name;
   priceProduct.innerHTML = CAR.detail.giaTu;
-  shortDesc1.innerHTML = "Content 1 - ABC"
-  shortDesc2.innerHTML = "Content 2 - CDE"
+  nameMode.innerHTML = "VIOS 1.5E-CVT:"
+  priceMode.innerHTML = "528.000.000 VNĐ"
   generateCarouselItems(listImg); // Initialize with the first set of images
   // Render show ngoaiThat, noiThat, vanHanh, anToan
   renderDetail(CAR.ngoaiThat, "ngoaiThat");

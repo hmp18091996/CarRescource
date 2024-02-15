@@ -10,6 +10,15 @@ export const LIST_PRODUCT = [
       xuatXu: "Việt Nam",
       giaTu: "479.000.000 VNĐ",
       img: "",
+      mode: [
+        {
+          tenMode: "VIOS 1.5E-CVT",
+          giaMode:"528.000.000 VNĐ"
+        },{
+          tenMode: "VIOS 1.5G-CVT",
+          giaMode:"592.000.000 VNĐ"
+        },
+      ],
       color: [
         {
           color: '#60121a',
