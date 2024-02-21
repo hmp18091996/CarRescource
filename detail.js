@@ -15,8 +15,9 @@ const listImg = CAR.detail.color.map((color) => color.img);
 // Get the DOM elements
 const nameProduct = document.getElementById("product_name");
 const priceProduct = document.getElementById("product_price");
-const nameMode = document.getElementById("nameMode") 
+const nameMode = document.getElementById("nameMode")
 const priceMode = document.getElementById("priceMode")
+const listShowMode = document.getElementById('showModePrice')
 
 // Function to render detail sections
 function renderDetail(section, containerId) {
@@ -29,7 +30,7 @@ function renderDetail(section, containerId) {
     const cardHtml = `
         <div class="col-md-6 d-flex py-4">
           <div class="card h-100">
-            <img src="./img/${item.img}" class="card-img-top" alt="${item.title}">
+            <img src="${item.img}" class="card-img-top" height="334" alt="${item.title}">
             <div class="card-body">
               <h5 class="card-title">${item.title}</h5>
               <p class="card-text">${item.description}</p>
@@ -51,7 +52,7 @@ function generateCarouselItems(images) {
     const carouselItem = document.createElement('div');
     carouselItem.className = `carousel-item ${index === 0 ? 'active' : ''}`;
     carouselItem.innerHTML = `
-      <img src="./img/${imgSrc}" class="d-block w-100" alt="Car image ${index + 1}">
+      <img src="${imgSrc}" class="d-block w-100" alt="Car image ${index + 1}">
     `;
     carouselInnerList.appendChild(carouselItem);
   });
@@ -62,7 +63,7 @@ function renderColorButtons(colors) {
   const colorsContainer = document.getElementById('colorsContainer');
   colorsContainer.innerHTML = '';
   colorsContainer.classList.add('d-flex', 'justify-content-center');
-  
+
   colors.forEach((colorObj, index) => {
     const button = document.createElement('button');
     button.style.backgroundColor = colorObj.color;
@@ -89,14 +90,24 @@ function changeCarouselImages(index) {
     }
   });
 }
+const generateModePrice = ({ tenMode, giaMode }) => `<div class='d-flex'><div id="nameMode" class="py-1 px-2 is-dividers">
+${tenMode}:
+</div>
+<div id="priceMode" class="py-1 px-2">
+${giaMode}
+</div></div>`
 
+const renderModePrice = (list) => {
+  listShowMode.innerHTML = ''
+  list.map((item) => listShowMode.innerHTML += generateModePrice(item))
+}
 // Event listener for when the DOM is ready
 document.addEventListener("DOMContentLoaded", (event) => {
   // Render Detail
   nameProduct.innerHTML = CAR.detail.name;
   priceProduct.innerHTML = CAR.detail.giaTu;
-  nameMode.innerHTML = "VIOS 1.5E-CVT:"
-  priceMode.innerHTML = "528.000.000 VNĐ"
+
+  renderModePrice(CAR.detail.mode)
   generateCarouselItems(listImg); // Initialize with the first set of images
   // Render show ngoaiThat, noiThat, vanHanh, anToan
   renderDetail(CAR.ngoaiThat, "ngoaiThat");
